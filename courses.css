@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+header{
+    background: linear-gradient(45deg, rgba(242, 113, 68, 1) 63%, rgba(38, 145, 191, 1) 63%);
+    height: 21px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.number1{
+    width: 48%;
+}
+.number2{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+}
+.number2 a{
+    color: white;
+    text-decoration: none;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+.fulllogo{
+    width: 90px;
+    height: 90px;
+}
+.fulllogo img{
+    width: 100%;
+    height: 100%;
+}
+.topfive ul{
+    display: flex;
+    align-items: center;
+}
+.topfive li{
+    list-style: none;
+}
+.topfive a{
+    text-decoration: none;
+    padding: 0 18px;
+    color:  rgba(242, 113, 68, 1) ;
+    font-size: 20px;
+}
+button a{
+text-decoration: none;
+color: white;
+}
+button{
+    background-color:  rgba(242, 113, 68, 1) ;
+font-weight: 700;
+padding: 6px 15px;
+border: 1px solid yellow ;
+border-radius: 5px;
+font-size: 16px;
+}
+.background{
+    background-image: url(backimg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+}
+.background::before{
+    content: "Our Courses";
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #f27144;
+    text-shadow: 2px 2px white;
+    font-weight: 700;
+}
+.basicimg{
+    width: 390px;
+    height: 180px;
+    margin: 15px 0;
+}
+.basicimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.bg2{
+    background-color: #5a5a5a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px;
+}
+.basic{
+    width: 30%;
+    font-size: 15px;
+    background: linear-gradient(#2691bf, #f27144);
+    height: 570px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0 10px 20px;
+}
+.basic a{
+    color: white;
+    text-decoration: none;
+}
+.top h3{
+    font-size: 20px;
+    width: 50%;
+}
+.top p{
+    padding: 5px 0;
+}
+.one p{
+    padding: 0px 0;
+    width: 90%;
+    font-size: 14px;
+}
+.live{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 0 ;
+}
+.lclass{
+    padding: 10px 0;
+}
+.lclass i{
+    margin: 0 5px 0 0;
+}
+.no{
+    font-size: 30px;
+}
+.star{
+    font-size: 18px;
+    color: orange;
+}
+.star2{
+    font-size: 18px;
+}
+.livebutton{
+    padding: 8px 18px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 0 0 0;
+}
+.livebutton a{
+    color: white;
+    text-decoration: none;
+}
+.bg3{
+    background-color: #5a5a5a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px 30px 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 300px;
+    padding: 0  0 0 60px;
+}
+.foot1{
+    width: 20%;
+    height: 220px;
+}
+.foot1 h1{
+    padding: 10px 0 20px 0;
+}
+.foot1 a{
+    text-decoration:none;
+    color: black;
+}
+.foot1 p{
+    padding:  0 0 8px 0;
+    font-size:16px;
+}
+.links a{
+    font-size: 30px;
+    margin: 0 8px;
+    color: black;
+}
+.foot1 p :hover{
+    text-decoration: underline;
+}
