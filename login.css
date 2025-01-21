@@ -70,7 +70,7 @@
     object-fit: cover;
 }
 .iron{
-    background-image: url(backimg.jpg);
+    background-image: url(image/backimg.jpg);
     background-size: cover;
     height: 430px;
     background-position: center;

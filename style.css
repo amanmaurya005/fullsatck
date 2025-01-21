@@ -6,10 +6,30 @@
 }
 
 .top{
-    background: linear-gradient(45deg, rgba(242, 113, 68, 1) 63%, rgba(38, 145, 191, 1) 63%);
-    height: 30px;
+    background: linear-gradient(-45deg, rgba(242, 113, 68, 1) 63%, rgba(38, 145, 191, 1) 63%);
+    height: 20px;
     color: white;
+    position: relative;
+    overflow: hidden;
+    font: 20px;
+    display: flex;
+    align-items: center;
 }
+.top p{
+    animation: aman 10s linear infinite;
+}
+@keyframes aman{
+    0%{
+        position: absolute;
+        transform: translateX(-100%);
+    }
+    100%{
+        position: absolute;
+        transform: translateX(700%);
+    }
+   
+}
+
 
 header{
     background: linear-gradient(45deg, rgba(242, 113, 68, 1) 63%, rgba(38, 145, 191, 1) 63%);
@@ -74,7 +94,7 @@ font-size: 16px;
 .bgimg{
     height: 530px;
     width: 100%;
-    background-image: url(Hero\ Banner.png);
+    background-image: url(image/Hero\ Banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
